@@ -99,6 +99,14 @@ console.log(apple2);
         把一种数据类型转化另外一种
             1.转化字符串类型
                 toSting()       var num = 10; var str = num.toSting();  console.log(str);
+
                 String(变量)强制转换    console.log(String(num));
+
+                加号拼接字符串 (!)
+                var num = 10;
+                console.log(num + "字符串"); 
             2.转化数字类型
+                var age = prompt('请输入您的年龄');
+                console.log(parseInt(age));  
+                输入一个字符串类型转换成数字型数据
             3.转化布尔类型         

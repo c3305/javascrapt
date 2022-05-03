@@ -100,4 +100,20 @@ console.log(apple2);
                 toSting()       var num = 10; var str = num.toSting();  console.log(str);
                 String(变量)强制转换    console.log(String(num));
             2.转化数字类型
+                1.parseInt(取整数)
+                var age = prompt('请输入您的年龄');
+                console.log(parseInt(age));  
+                输入一个字符串类型转换成数字型数据
+                console.log(parseInt('3.14'));   //3
+                console.log(parseInt("3.94"));   //3
+                console.log(parseInt("120px"));  //120
+                console.log(parseInt("rem120px"));  //Nan
+                2.parseFloat(取小数)
+                console.log(parseFloat('3.14')); //3.14
+                3.Number
+                console.log(Number("3.14"));    //3.14
+                console.log(Number(num));
+                4.运算符
+                console.log('12' -0 );     //12
+                console.log('123' - '120' );  //3
             3.转化布尔类型         
